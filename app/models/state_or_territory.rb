@@ -1,0 +1,2 @@
+class StateOrTerritory < ApplicationRecord
+end

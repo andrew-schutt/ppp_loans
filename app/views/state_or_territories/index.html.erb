@@ -1,0 +1,6 @@
+<h1>Paycheck Protection Program Loans By State/Terrority</h1>
+<ul>
+<% @state_or_territories.each do |state_or_territory| %>
+  <li><%= link_to state_or_territory.name, state_or_territory_path(state_or_territory) %></li>
+<% end %>
+</ul>
